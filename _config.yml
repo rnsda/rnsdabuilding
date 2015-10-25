@@ -1,8 +1,7 @@
-# Site settings
 title:Raleigh
 email:discover.of.wf@gmail.com
-url: "" # the base hostname & protocol for your site
-
+url: ""
+description:None
 # User setting
 owner: Raleigh North SDA
 email:
