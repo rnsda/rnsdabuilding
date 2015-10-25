@@ -1,6 +1,6 @@
 # Site settings
-title: Raleigh North Building Program
-email: discover.of.wf@gmail.com
+title:Raleigh North Building Program
+email:discover.of.wf@gmail.com
 description: I am trying this out lol.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
@@ -19,7 +19,7 @@ telephone:
 copyright:
 
 # API settings
-google_api_key:
+google_api_key:AIzaSyBvo7wXrqOvgcUDg8kC0a_CuVcp65mp8eI
 
 # Build settings
 markdown: kramdown
