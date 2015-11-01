@@ -1,16 +1,19 @@
 title: Raleigh
 google_api_key: AIzaSyBvo7wXrqOvgcUDg8kC0a_CuVcp65mp8eI
-#email:’discover.of.wf@gmail.com’
+
+email: discover.of.wf@gmail.com
 url: brh.github.io
 #description:None
 # User setting
 owner: Raleigh North SDA
-email:
-facebook_username: basement
+facebook_username: 
 twitter_username:
 github_username:
+
+location: 3808 Rogers Rd WAKE FOREST NC 27587
+mail: '3650 Rogers Road # 336 Wake Forest NC 27587'
 address:
-  - line: 5505 Six Forks Rd, Raleigh, NC 27614
+  - line: "3650 Rogers Road # 336 Wake Forest NC 27587"
   # Feel free to add more lines here 
 telephone:
 copyright:
