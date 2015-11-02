@@ -16,11 +16,15 @@ $(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 
       var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      var tag = this.hash.slice(1);
+      target = target.length ? target : $('[name=' + tag + ']');
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top
-        }, 1000);
+        }, 1000, function(){
+        	if ( tag == 'currentlocationmap')
+                $('.currentlocation h3:first').fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
+        });
         return false;
       }
     }

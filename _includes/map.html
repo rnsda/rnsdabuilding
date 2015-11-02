@@ -1,14 +1,15 @@
-<section id="map" class="map">
-<div class="row">
-<div class="col-md-6">
+<section id="map" class="map bg-primary">
+<div id="currentlocationmap" class="row">
+<div class="currentlocation col-md-6">
   <h3 class="text-center">Current Church Location</h3>
+  <h4 class="text-center">Saturdays 9:30am and 11am</h4>
   <iframe id="map_iframe"
     width="100%"
     height="100%"
     frameborder="0"
     scrolling="no"
     marginheight="0"
-    marginwidth="0"
+    marginwidth="10"
     src="https://maps.google.com/maps/embed/v1/place?key={{site.google_api_key}}&q={{site.church}}"
     allowfullscreen>
   </iframe>
@@ -19,7 +20,7 @@
     frameborder="0"
     scrolling="no"
     marginheight="0"
-    marginwidth="0"
+    marginwidth="10"
     src="https://maps.google.com/maps/embed/v1/place?key={{site.google_api_key}}&q={{address.church}}"
     allowfullscreen>
   </small>
@@ -32,7 +33,7 @@
     frameborder="0"
     scrolling="no"
     marginheight="0"
-    marginwidth="0"
+    marginwidth="10"
     src="https://maps.google.com/maps/embed/v1/place?key={{site.google_api_key}}&q={{site.location}}"
     allowfullscreen>
   </iframe>
@@ -43,7 +44,7 @@
     frameborder="0"
     scrolling="no"
     marginheight="0"
-    marginwidth="0"
+    marginwidth="10"
     src="https://maps.google.com/maps/embed/v1/place?key={{site.google_api_key}}&q={{address.line}}"
     allowfullscreen>
   </small>
