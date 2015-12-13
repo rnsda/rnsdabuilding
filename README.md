@@ -4,7 +4,7 @@ A Jekyll implementation of the [Stylish Portfolio](http://startbootstrap.com/tem
 
 See the site in action at https://volny.github.io/stylish-portfolio-jekyll/
 
-## To use the Stylish Portfolio template in your project
+### To use the Stylish Portfolio template in your project
 
 - Start by adding your info in `_config.yml`
 - Add as many address lines as you want. Your address will also be used to show your location on the map.
